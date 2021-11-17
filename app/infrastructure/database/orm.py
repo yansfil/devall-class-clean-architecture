@@ -1,6 +1,7 @@
 from peewee import *
 
-db = SqliteDatabase("database.db")
+# DB의 경로를 동적으로 처리해줄 수 있음.
+db = SqliteDatabase(None)
 
 
 class BaseModel(Model):
