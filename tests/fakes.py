@@ -1,4 +1,4 @@
-from app.application.interfaces.user_repository import AbstractRepository
+from app.application.interfaces.repository import AbstractRepository
 from app.domain.entity import User
 
 
