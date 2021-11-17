@@ -14,3 +14,11 @@ class UserModel(BaseModel):
 
     class Meta:
         table_name = "users"
+
+
+class ProductModel(BaseModel):
+    name = CharField(null=False)
+    price = IntegerField(null=False)
+
+    class Meta:
+        table_name = "products"
