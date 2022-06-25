@@ -27,4 +27,4 @@ def test_get_product_api(fastapi_client):
     with fastapi_client as client:
         result = client.get(f"products/{product_id}").json()
 
-        assert result == {"id": 1, "name": "키보드", "price": 30000}
+        assert result == {"id": 1, "name": "키보드", "price": 3000000}
